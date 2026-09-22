@@ -21,5 +21,14 @@ env/
 venv/
 __pycache__
 
+# Terraform:
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# LocalStack runtime data:
+customize/.localstack/
+
 # Operating Systems:
 .DS_Store
